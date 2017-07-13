@@ -1,0 +1,66 @@
+﻿<?php
+$name=post_["first_name"];
+echo $name;
+$name=post_["last_name"];
+echo $name;
+$father's_name=post_["father's_name"];
+echo $father's_name;
+$mother's_name=post_["mother's_name"];
+echo $mother's_name;
+$DOB=post_["DOB"];
+echo $DOB;
+$p_add=post_["p_add"];
+echo $p_add;
+$contact_number=post_["contact_number"];
+echo $contact_number;
+$email_id=post_["email_id"];
+echo $email_id;
+$class=post_["class"];
+echo $class;
+$college=post_["college"];
+echo $college;
+
+ ?>
+<!DOCTYPE html>
+<title>College Registration Form</title>
+<form action="CollegeRegistrationForm.php" method="post">
+<fieldset>
+<legend>Personal information :</legend>
+First Name:
+  <input type="text" name="first_name" value="Mickey thomas">
+  
+Last Name:
+  <input type="text" name="last_name" value=" thomas">
+  <br><pre>  </pre>
+Father's Name:
+  <input type="text" name="father's_name" value="Mickey thomas">
+  
+Mother's Name:
+  <input type="text" name="mother's_name" value=" thomas">
+  <br>
+Date of birth:<br>
+  <input type="text" name="DOB" value="DD-MM-YYYY">
+  <br>
+Permanent Adress:<br>
+  <input type="text" name="p_add" value=" asaram chouraha indore">
+  <br>
+Contact number :<br>
+  <input type="text" name="contact_number" value="0123456789">
+  <br>
+E-mail id:<br>
+  <input type="text" name="email_id" value="abcxyz@gmail.com">
+  <br><br>
+</fieldset>
+<fieldset>
+<legend>Student's information :</legend>
+ Class:<br>
+  <input type="text" name="class" placeholder="first year"/>
+  <br>
+Department:<br>
+  <input type="text" name="college" value="IET-DAVV">
+  <br>
+ 
+</fieldset>
+<br>
+  <input type="submit" value="Submit">
+</form>
